@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgba(12, 116, 25, 0.5)0%,rgba(94, 168, 10, 0.5)25%,
+     rgba(10, 238, 10, 0.4)50%,rgb(122, 211, 102)),url(fd2.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+}
+.menu
+{
+
+    height: 70px;
+    left: 500px;
+}
+ul
+{
+    float: left;
+    width: 1000px;
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: #91ff00;
+} 
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"]
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.liste-produits table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.liste-produits th, .liste-produits td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.liste-produits th {
+    background-color: #f2f2f2;
+}
+
+.liste-produits h2 {
+    text-align: center;
+}
+
+.liste-produits a.modifier {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #4CAF50; /* Vert */
+    color: white;
+}
+
+.liste-produits a.modifier:hover {
+    background-color: #45a049; /* Vert plus foncé au survol */
+}
+
+.liste-produits a.supprimer {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f44336; /* Rouge */
+    color: white;
+}
+
+.liste-produits a.supprimer:hover {
+    background-color: #d32f2f; /* Rouge plus foncé au survol */
+}
+
